@@ -24,19 +24,27 @@ The main goal of this project is to help users find the best price for products 
 The backend is implemented using Django and follows the MVT (Model-View-Template) architecture.
 
 ## Folder Structure
-price-comparison-django/ │── accounts/ │── products/ │── basket/ │── assets/ │── templates/ │── scripts/ │── manage.py │── load_prices.py │── README.md
+- DigitalMarket /        (Main Django project)
+- accounts/           (User related functionality)
+- products/           (Product and price comparison logic)
+- basket/             (Cart functionality)
+- assets/             (Static files)
+- templates/          (HTML templates)
+- scripts/            (Utility scripts)
+- manage.py
 ## How to Run the Project
 1. Clone the repository
 git clone
-2. Create a virtual environment
-python -m venv venv
-3. Activate the virtual environment
-4. Install dependencies
-pip install -r requirements.txt
-5. Run migrations
+2. Navigate to the project directory
+cd price-comparison-django
+3. Install Django
+pip install django
+4. Run migrations
 python manage.py migrate
-6. Start the server
+5. Start the server
 python manage.py runserver
+6.Open in browser
+http://127.0.0.1:8000/
 ## What I Learned
 - Django MVT architecture
 - Working with Django models and views
