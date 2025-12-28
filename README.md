@@ -63,3 +63,25 @@ GitHub: https://github.com/Kusuma-Devi
 
 ## License
 This project is created for educational purposes.
+
+## Screenshots
+
+### Home page
+![Home page](screenshots/home.png)
+### Categories page
+![categories page](screenshots/categories.png)
+### Products page
+![Products page](screenshots/products.png)
+### Cart page
+![cart page](screenshots/cart.png)
+### Login page
+![login page](screenshots/login.png)
+### Register page
+![Register page](screenshots/register.png)
+### Admin page
+![Admin page](screenshots/admin.png)
+
+
+
+
+
