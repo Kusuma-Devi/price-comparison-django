@@ -1,1 +1,1 @@
-web: gunicorn DIGITALMARKET.wsgi
+web: gunicorn DigitalMarket.wsgi
