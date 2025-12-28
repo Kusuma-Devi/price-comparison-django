@@ -43,8 +43,9 @@ pip install django
 python manage.py migrate
 5. Start the server
 python manage.py runserver
-6.Open in browser
+6. After starting the Django development server, open the application in your browser at:
 http://127.0.0.1:8000/
+
 ## What I Learned
 - Django MVT architecture
 - Working with Django models and views
